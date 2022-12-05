@@ -1,0 +1,94 @@
+*{margin: 0;padding: 0;}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+body{font-family:  'Montserrat', sans-serif;}
+
+
+header{height: 50px;background: #004098}
+
+header p{color: #fff;line-height: 50px;font-size:7pt;float:right;margin-right: 5%}
+
+#nome{line-height:50px;margin-left: 5%;color: #fff;float: left;font-size:10pt}
+
+#capa{width:95%;height: 300px;background-image: url('ilustracao.jpg');margin: 20px auto;}
+
+
+
+
+.borda{width: 90%;height: 5px;background:#ccc;margin: auto;}
+
+#biografia,#logos,#concursos{width: 85%;margin: 20px auto}
+
+
+
+article img{width:70%}
+
+h1,h3{color: #555}
+
+.textoBio{margin:10px 0px;font-size: 11pt}
+
+
+footer{display: flex;width:100%;height:550px;justify-content: center;margin-top: 50px;background: #ccc;}
+
+.social{width:30%;margin: auto;}
+
+.social img{width: 100%;margin-top: 20px;}
+
+.links{height:100px;display: block;text-align: center;background: #222;line-height:px;padding: 5px 0px}
+
+.links p{color:#FFF;padding: 20px 0px;font-size: 10pt}
+
+.links a{display: block;color: #FFF}
+
+
+@media(min-width:360px){
+
+	#capa{width:86%}
+}
+
+
+@media(min-width:750px){
+
+	#capa{width:95%}
+
+	article{width:400px;}
+
+	aside{float: right;}
+
+    footer{flex-direction:row;width:100%;}
+
+    .social{width:60%;background:#fff;display: flex;justify-content:space-evenly;padding: 25px 0px}
+
+    .social > img{width:30%;margin-top: 0;}
+
+
+
+}
+
+
+@media(min-width:1000px){
+
+	#capa{width:92%}
+
+	header p{font-size:10pt}
+
+	#nome{font-size:16pt}
+
+	.social > img{width:25%;margin-top: 0;}
+
+	.klabin{width:20%!important}
+}
+
+
+@media(min-width:1024px){	
+    
+
+   	.textoColumn{column-count:2}
+}
+
+
+@media(min-width:1280px){
+
+	article{float: left;}
+}
